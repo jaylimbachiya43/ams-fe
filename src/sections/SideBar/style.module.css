@@ -1,11 +1,15 @@
-.container{
+.container {
     @apply w-fit h-screen bg-gray-800 text-white relative;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
 }
 
-.stem{
+.stem {
     @apply p-4;
 }
 
-.title{
+.title {
     @apply absolute ml-2 top-0 left-full bg-gray-800 text-white p-3 rounded-r-full;
 }
