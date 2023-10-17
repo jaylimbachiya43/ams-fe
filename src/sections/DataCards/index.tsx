@@ -1,12 +1,9 @@
 import DataCard from '@/components/DataCard/index';
-import LoginForm from '@/components/LoginForm/index';
 import React from 'react'
 import style from './style.module.css'
-import Link from '../../../node_modules/next/link';
 import Joining from '@/components/Joining/index';
 import Birthdays from '@/components/Birthdays/index';
 import Holidays from '@/components/Holidays/index';
-import AltStripes from '@/components/AltStripes/index';
 
 const data = [
     {

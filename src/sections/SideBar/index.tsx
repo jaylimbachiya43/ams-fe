@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import style from './style.module.css'
-// import FeedbackIcon from '@/public/icons/Feedback.svg'
 
 const sidebarItems = [
   {
@@ -70,7 +69,7 @@ const sidebarItems = [
         <line x1="16.24" y1="7.76" x2="19.07" y2="4.93" />
       </svg>
     ),
-    link: '/',
+    link: '/details',
   },
   {
     title: 'Announcements',
@@ -90,29 +89,28 @@ const sidebarItems = [
         <line x1="8" y1="12" x2="16" y2="12" />
       </svg>
     ),
-    link: '/',
+    link: '/announcements',
   },
-  {
-    title: 'Feedback',
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-6 h-6"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <circle cx="12" cy="12" r="10" />
-        <line x1="12" y1="16" x2="12" y2="12" />
-        <line x1="12" y1="8" x2="12" y2="8" />
-      </svg>
-    ),
-    // icon: <FeedbackIcon/>,
-    link: '/',
-  },
+  // {
+  //   title: 'Feedback',
+  //   icon: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       className="w-6 h-6"
+  //       viewBox="0 0 24 24"
+  //       fill="none"
+  //       stroke="currentColor"
+  //       strokeWidth="2"
+  //       strokeLinecap="round"
+  //       strokeLinejoin="round"
+  //     >
+  //       <circle cx="12" cy="12" r="10" />
+  //       <line x1="12" y1="16" x2="12" y2="12" />
+  //       <line x1="12" y1="8" x2="12" y2="8" />
+  //     </svg>
+  //   ),
+  //   link: '/feedback',
+  // },
   {
     title: 'Logout',
     icon: (

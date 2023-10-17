@@ -1,17 +1,17 @@
 import Show from "@/components/Show/index";
 import WideCards from "@/sections/WideCards/index";
 
-const dataA = [
+const dataAn = [
     {
-        title: 'Attendance',
+        title: 'Announcements',
         contentComponent: Show,
     },
 ]
 
-export default function Attendance() {
+export default function Announcements() {
     return (
         <div>
-            <WideCards data={dataA}/>
+            <WideCards data={dataAn}/>
         </div>
     )
 }
