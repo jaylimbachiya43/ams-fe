@@ -1,0 +1,18 @@
+.container{
+    @apply h-[100vh] w-full flex justify-center items-center
+}
+.form {
+    @apply block bg-gray-500 p-24 rounded-2xl;
+}
+.h1{
+    @apply text-4xl my-6 text-center;
+}
+.name {
+    @apply block border-none rounded-xl h-10 w-80 bg-blue-100 pl-3 m-auto;
+}
+.pass{
+    @apply block border-none rounded-xl h-10 w-80 my-3 bg-blue-100 pl-3 m-auto;
+}
+.btn {
+    @apply border px-10 py-2 block bg-blue-300 m-auto rounded-xl hover:bg-white;
+}
