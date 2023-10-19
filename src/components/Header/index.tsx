@@ -14,11 +14,11 @@ const Header = () => {
         </div>
         <div className="icon flex gap-x-5 items-center">
             <Image src={BellLogo} alt='BellLogo' className='h-auto w-8'/>
-            <Image src={ProfImg} alt='ProfImg'  className='h-auto w-8'/>
+            <Image src={ProfImg} alt='ProfImg'  className='h-auto w-8 cursor-pointer' />
         </div>
 
     </header>
   )
 }
 
-export default Header
+export default Header 
