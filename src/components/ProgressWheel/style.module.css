@@ -1,0 +1,17 @@
+.container{
+  @apply px-20 border bg-slate-100 shadow-lg
+}
+
+.progress{
+  @apply relative flex items-center justify-center rounded-full p-20;
+  background: conic-gradient(green 3.6deg, transparent 0deg);
+}
+
+.progress::before{
+  @apply absolute bg-slate-100 p-28 rounded-full;
+  content: '';
+}
+
+.value{
+  @apply absolute text-[40px];
+}

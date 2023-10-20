@@ -10,7 +10,7 @@ const data = [
     { label: 'Contact', value: '123-456-7890' },
 ]
 
-const AltStripes = () => {
+const StuDetails = () => {
   return (
     <div className="flex justify-center items-center bg-transparent">
       <table className="w-full p-4 rounded-lg shadow-md bg-transparent">
@@ -30,4 +30,4 @@ const AltStripes = () => {
   );
 };
 
-export default AltStripes
+export default StuDetails

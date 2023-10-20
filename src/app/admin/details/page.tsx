@@ -1,10 +1,10 @@
-import AltStripes from "@/components/AltStripes/index";
+import StuDetails from "@/components/StuDetails/index";
 import WideCards from "@/sections/WideCards/index";
 
 const dataC = [
     {
         title: 'Details',
-        contentComponent: AltStripes,
+        contentComponent: StuDetails,
     },
 ]
 

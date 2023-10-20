@@ -4,7 +4,7 @@ export default function DataCardCont({item}) {
     const ContentComponent = item.contentComponent;
     return (
         <main>
-            <div className='parent m-5 shadow-lg'>
+            <div className='parent my-5 mx-2 shadow-lg'>
                 <nav className='bg-gray-800 p-2 rounded-t-2xl text-white'>
                     <h3>{item.title}</h3>
                 </nav>
