@@ -26,7 +26,7 @@ const dataH = [
 
 const DashboardOne = () => {
   return (
-    <div>
+    <div className=''>
         <DataCards data1={dataH}/>
     </div>
   )

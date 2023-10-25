@@ -4,7 +4,7 @@ import FeesCardsA from '../FeesCardsA/index';
 import admin from '../../../public/images/student.png';
 
 const AdminFeesCards = () => {
-  const [selectedBatch, setSelectedBatch] = useState(1); // Initialize with a default batch
+  const [selectedBatch, setSelectedBatch] = useState(1);
 
   const dataFC = [
     {

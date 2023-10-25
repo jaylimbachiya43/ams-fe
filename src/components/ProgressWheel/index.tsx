@@ -30,6 +30,7 @@ const ProgressWheel = () => {
           </span>
         </div>
       </div> */}
+      index
     </div>
   );
 };

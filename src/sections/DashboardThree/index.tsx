@@ -3,14 +3,7 @@ import Joining from '@/components/Joining/index'
 import StuDetails from '@/components/StuDetails/index'
 import React from 'react'
 import DataCards from '../DataCards/index'
-import WideCards from '../WideCards/index'
-
-const dataC = [
-    {
-        title: 'Details',
-        contentComponent: StuDetails,
-    },
-]
+// import WideCards from '../WideCards/index'
 
 const dataA = [
     {
@@ -27,8 +20,7 @@ const dataA = [
 
 const DashboardThree = () => {
   return (
-    <div className='grid grid-cols-2 gap-x-6'>
-        <WideCards data={dataC}/>
+    <div className=''>
         <DataCards data1={dataA} />
     </div>
   )
