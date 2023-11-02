@@ -4,7 +4,7 @@ import style from './style.module.css'
 
 export default function FeesCardA({ item }) {
     const cardStyle = {
-        backgroundColor: item.color, // Apply the specified color to the background
+        backgroundColor: item.color,
     };
 
     return (

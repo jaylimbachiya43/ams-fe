@@ -1,9 +1,7 @@
-import Holidays from '@/components/Holidays/index'
-import Joining from '@/components/Joining/index'
-import StuDetails from '@/components/StuDetails/index'
 import React from 'react'
 import DataCards from '../DataCards/index'
 import HRAnn from '@/components/HRAnn'
+import AnnouncementList from '@/components/DashAnn'
 
 const dataA = [
     {
@@ -15,7 +13,7 @@ const dataA = [
 
 const DashboardThree = () => {
   return (
-    <div className=''>
+    <div className='grid grid-cols-3'>
         <DataCards data1={dataA} />
     </div>
   )
