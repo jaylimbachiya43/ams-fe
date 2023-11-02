@@ -1,11 +1,12 @@
 import Show from '@/components/Show/index'
 import React from 'react'
 import WideCards from '../WideCards/index'
+import HRAnn from '@/components/HRAnn'
 
 const dataAn = [
     {
         title: 'Announcements',
-        contentComponent: Show,
+        contentComponent: HRAnn,
     },
 ]
 

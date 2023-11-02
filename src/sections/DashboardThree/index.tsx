@@ -3,17 +3,12 @@ import Joining from '@/components/Joining/index'
 import StuDetails from '@/components/StuDetails/index'
 import React from 'react'
 import DataCards from '../DataCards/index'
-// import WideCards from '../WideCards/index'
+import HRAnn from '@/components/HRAnn'
 
 const dataA = [
     {
         title: 'Announcements',
-        contentComponent: Joining,
-  
-    },
-    {
-        title: 'My Awards',
-        contentComponent: Holidays,
+        contentComponent: HRAnn,
   
     },
 ]

@@ -1,5 +1,3 @@
-import AdminDetails from '@/sections/DashboardThree/index'
-import ProfileAtt from '@/sections/ProfileAtt/index'
 import React from 'react'
 import DashboardOne from '@/sections/DashboardOne/index'
 import DashboardTwo from '@/sections/DashboardTwo/index'

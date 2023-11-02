@@ -1,39 +1,14 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import style from './style.module.css';
+import MySVG from '../CircleSVG';
 
-const ProgressWheel = () => {
-  const [progressStartValue, setProgressStartValue] = useState(0);
-  const progressEndValue = 88;
-  const speed = 7;
-
-  useEffect(() => {
-    if (progressStartValue < progressEndValue) {
-      const progressInterval = setInterval(() => {
-        setProgressStartValue((prevValue) => prevValue + 1);
-      }, speed);
-
-      return () => {
-        clearInterval(progressInterval);
-      };
-    }
-  }, [progressStartValue, progressEndValue]);
-
-  const conicGradient = `conic-gradient(green ${progressStartValue * 3.6}deg, transparent 0deg)`;
-
+export default function ProgressWheel() {
   return (
-    <div className={style.container}>
-      {/* <div className="m-9">
-        <div className={style.progress} style={{ background: conicGradient }}>
-          <span className={style.value}>
-            {`${progressStartValue}`}
-          </span>
-        </div>
-      </div> */}
-      index
-    </div>
+    <main className='grid grid-cols-3 border gap-y-7 bg-slate-100 shadow-lg'>
+        <MySVG percentage={35}/>
+        <MySVG percentage={65}/>
+        <MySVG percentage={90}/>
+    </main>
   );
-};
-
-export default ProgressWheel;
-
+}

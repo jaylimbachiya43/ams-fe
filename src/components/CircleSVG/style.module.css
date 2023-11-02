@@ -1,0 +1,27 @@
+.circularChart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 210px;
+}
+
+.circle {
+  @apply fill-slate-200;
+  /* fill: slategrey; */
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.percentage {
+  @apply fill-slate-700;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
