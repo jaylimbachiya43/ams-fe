@@ -25,3 +25,6 @@
   font-size: 0.5em;
   text-anchor: middle;
 }
+.days{
+  @apply flex justify-center mt-0
+}

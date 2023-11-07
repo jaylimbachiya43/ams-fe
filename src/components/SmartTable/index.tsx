@@ -9,7 +9,7 @@ export default function SmartTable ({ announcements }) {
           <th className="py-2 px-4">Announcement</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className='text-start'>
         {announcements.map((announcement, index) => (
           <tr
             key={index}

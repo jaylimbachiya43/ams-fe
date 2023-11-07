@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AnnouncementList = ({ announcements }) => {
+export default function DashAnn({ announcements }) {
   return (
     <div className="mt-4">
       <h2 className="text-lg font-semibold mb-2">Announcements</h2>
@@ -14,5 +14,3 @@ const AnnouncementList = ({ announcements }) => {
     </div>
   );
 };
-
-export default AnnouncementList;

@@ -1,9 +1,9 @@
 .parent{
-    @apply flex justify-center items-center md:px-8 py-14 mx-24 my-10 relative;
+    @apply flex justify-center items-center md:px-8 py-14 my-10 relative;
 }
 
 .cont{
-    @apply grid grid-cols-2 gap-x-40;
+    @apply grid md:grid-cols-2 md:gap-x-16 lg:gap-x-40;
 }
 
 .btn{

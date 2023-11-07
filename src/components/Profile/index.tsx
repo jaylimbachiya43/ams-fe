@@ -15,7 +15,7 @@ const Profile = () => {
     return (
         <div className=''>
             {data.map((item, index) => (
-                <div key={index} className='grid justify-items-center border gap-y-7 p-3 bg-slate-100 shadow-lg'>
+                <div key={index} className='grid justify-items-center border gap-y-7 p-7 bg-slate-100 shadow-lg'>
                     <Image src={item.logo} alt='user dp' width={50} height={100} className='rounded-full border bg-slate-400 p-1' />
                     <h2><strong>{item.name}</strong></h2>
                     <p>{item.position}</p>
