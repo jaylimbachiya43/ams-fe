@@ -5,7 +5,7 @@ import MySVG from '../CircleSVG';
 
 export default function ProgressWheel() {
   const totalDays = 30;
-  const currentDay = 21;
+  const currentDay = 8;
 
   const [selectedMonth, setSelectedMonth] = useState('current');
 

@@ -1,0 +1,40 @@
+
+.card {
+  @apply grid;
+    perspective: 1000px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .front{
+    @apply w-full h-full;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .back {
+    @apply grid w-full h-full;
+    position: absolute;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    transform: rotateY(180deg);
+    background-color: #f0f0f0;
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+  

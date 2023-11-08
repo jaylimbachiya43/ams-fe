@@ -38,7 +38,7 @@ const AdminPage = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4">User Management (Admin Page)</h1>
+      <h1 className="text-3xl font-bold mb-4">User Management</h1>
       <div className="space-y-4">
         <div className="bg-blue-100 p-4 rounded shadow-md">
           <h2 className="text-xl font-semibold">Admin Users:</h2>
