@@ -1,35 +1,23 @@
-
 .card {
-  @apply grid;
+  @apply grid w-80 h-32;
     perspective: 1000px;
-    width: 200px;
-    height: 300px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
   }
   
   .front{
-    @apply w-full h-full;
+    @apply grid justify-start items-center w-full h-full rounded-lg p-4;
     position: absolute;
     backface-visibility: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
   }
   
   .back {
-    @apply grid w-full h-full;
+    @apply grid items-center justify-evenly w-full h-full rounded-lg;
     position: absolute;
     backface-visibility: hidden;
-    justify-content: center;
-    align-items: center;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
     transform: rotateY(180deg);
     background-color: #f0f0f0;
   }
@@ -37,4 +25,3 @@
   .flipped {
     transform: rotateY(180deg);
   }
-  

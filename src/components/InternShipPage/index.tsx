@@ -3,8 +3,12 @@ import React, { useState } from 'react';
 
 const InternShipPage = () => {
   const [availableInternships, setAvailableInternships] = useState([
-    { id: 1, company: 'Company A', position: 'Flutter & BootStrap' },
-    { id: 2, company: 'Company B', position: 'React Developer' },
+    { id: 1, company: 'TCS', position: 'Flutter & BootStrap' },
+    { id: 2, company: 'Amazon', position: 'React Developer' },
+    { id: 3, company: 'Zomato', position: 'Bootstrap' },
+    { id: 4, company: 'Swiggy', position: 'HR' },
+    { id: 5, company: 'Fipkart', position: 'Frontend Developer' },
+    { id: 6, company: 'Netflix', position: 'Backend Developer' },
   ]);
 
   const [matchedInternships, setMatchedInternships] = useState([]);
@@ -30,7 +34,7 @@ const InternShipPage = () => {
                 key={internship.id}
                 className="bg-white p-4 rounded shadow-md flex items-center justify-between"
               >
-                <div>
+                <div className='grid'>
                   <span className="text-lg font-semibold">
                     {internship.company}
                   </span>
@@ -53,7 +57,7 @@ const InternShipPage = () => {
             {matchedInternships.map((internship) => (
               <li
                 key={internship.id}
-                className="bg-white p-4 rounded shadow-md"
+                className="bg-white p-4 rounded shadow-md grid"
               >
                 <span className="text-lg font-semibold">
                   {internship.company}

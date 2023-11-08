@@ -1,3 +1,4 @@
+import Header from '@/sections/Header';
 import './globals.css';
 
 export default function RootLayout({
@@ -7,7 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex">
+      <body className="flex flex-col">
+        <Header />
         <main className="flex-1">{children}</main>
       </body>
     </html>

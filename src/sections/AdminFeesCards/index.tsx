@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import FeesCardsA from '../FeesCardsA/index';
 import admin from '../../../public/images/student.png';
+import FlipCard from '@/components/FlipCard';
+import style from './style.module.css'
 
 const AdminFeesCards = () => {
   const [selectedBatch, setSelectedBatch] = useState(1);
@@ -21,11 +23,6 @@ const AdminFeesCards = () => {
       title: 'Pending Revenue',
       logo: admin,
       color: 'rgba(50, 205, 50, 0.1)'
-    },
-    {
-      title: 'Total Revenue',
-      logo: admin,
-      color: 'rgba(0, 0, 255, 0.1)'
     },
   ];
 
@@ -51,7 +48,10 @@ const AdminFeesCards = () => {
           ))}
         </select>
       </div>
-      <FeesCardsA data2={dataFC} />
+      <div className={style.cards}>
+        <FeesCardsA data2={dataFC} />
+        <FlipCard />
+      </div>
     </div>
   );
 }
