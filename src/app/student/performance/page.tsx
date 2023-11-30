@@ -1,7 +1,7 @@
 import React from 'react';
 import ProgressWheel from '../../../components/ProgressWheel/index'
 
-const HomePage = () => {
+export default function Performance() {
 
   return (
     <main className="flex justify-center items-center h-screen">
@@ -9,5 +9,3 @@ const HomePage = () => {
     </main>
   );
 };
-
-export default HomePage;

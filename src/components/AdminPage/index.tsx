@@ -120,3 +120,55 @@ const AdminPage = () => {
 };
 
 export default AdminPage;
+
+// const AdminPage = () => {
+//   const [adminUsers, setAdminUsers] = useState([]);
+//   const [hrUsers, setHrUsers] = useState([]);
+//   const [newUser, setNewUser] = useState({ username: '', role: 'admin' });
+
+//   const fetchAdminUsers = async () => {
+//     const response = await fetch('http://localhost:3001/api/adminUsers');
+//     const data = await response.json();
+//     setAdminUsers(data);
+//   };
+
+//   const fetchHrUsers = async () => {
+//     const response = await fetch('http://localhost:3001/api/hrUsers');
+//     const data = await response.json();
+//     setHrUsers(data);
+//   };
+
+//   useEffect(() => {
+//     fetchAdminUsers();
+//     fetchHrUsers();
+//   }, []);
+
+//   const handleAddUser = async () => {
+//     const response = await fetch('http://localhost:3001/api/addUser', {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/json',
+//       },
+//       body: JSON.stringify(newUser),
+//     });
+
+//     const data = await response.json();
+//     setAdminUsers([...adminUsers, data]);
+//     setNewUser({ username: '', role: 'admin' });
+//   };
+
+//   const handleRemoveUser = async (userId, role) => {
+//     const response = await fetch(`http://localhost:3001/api/removeUser/${userId}`, {
+//       method: 'DELETE',
+//     });
+
+//     if (response.ok) {
+//       if (role === 'admin') {
+//         const updatedAdminUsers = adminUsers.filter((user) => user._id !== userId);
+//         setAdminUsers(updatedAdminUsers);
+//       } else if (role === 'hr') {
+//         const updatedHrUsers = hrUsers.filter((user) => user._id !== userId);
+//         setHrUsers(updatedHrUsers);
+//       }
+//     }
+//   };

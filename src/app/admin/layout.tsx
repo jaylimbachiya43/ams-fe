@@ -19,7 +19,7 @@ const customSidebarItems = [
           <line x1="8" y1="12" x2="16" y2="12" />
         </svg>
       ),
-      link: '/admin/dashboard',
+      link: '/admin',
     },
     {
       title: 'Attendance',
@@ -119,7 +119,7 @@ const customSidebarItems = [
           <path d="M12 5L21 12 12 19" />
         </svg>
       ),
-      link: '/auth/login',
+      link: '/',
     },
   ];
 
