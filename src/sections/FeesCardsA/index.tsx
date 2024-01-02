@@ -1,6 +1,6 @@
-import FeesCardA from '@/components/FeesCardA/index'
+import FeesCardA from '../../../../ams-fe/src/components/FeesCardA/index'
 import React from 'react'
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/sections/FeesCardsA/style.module.css'
 
 const FeesCardsA = ({ data2 }) => {
     return (

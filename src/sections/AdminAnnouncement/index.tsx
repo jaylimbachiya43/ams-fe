@@ -1,7 +1,7 @@
 import Show from '@/components/Show/index'
 import React from 'react'
-import WideCards from '../WideCards/index'
-import HRAnn from '@/components/HRAnn'
+import WideCards from '../../../../ams-fe/src/sections/WideCards/index'
+import HRAnn from '../../../../ams-fe/src/components/HRAnn'
 
 const dataAn = [
     {

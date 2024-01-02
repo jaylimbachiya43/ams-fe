@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style.module.css';
+import style from '../../../../ams-fe/src/components/CircleSVG/style.module.css';
 
 const getColorBasedOnPercentage = (percentage) => {
   if (percentage >= 0 && percentage < 40) {

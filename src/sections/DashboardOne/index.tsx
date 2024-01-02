@@ -1,8 +1,8 @@
-import Birthdays from '@/components/Birthdays/index'
-import Holidays from '@/components/Holidays/index'
-import Joining from '@/components/Joining/index'
+import Birthdays from '../../../../ams-fe/src/components/Birthdays/index'
+import Holidays from '../../../../ams-fe/src/components/Holidays/index'
+import Joining from '../../../../ams-fe/src/components/Joining/index'
 import React from 'react'
-import DataCards from '../DataCards/index'
+import DataCards from '../../../../ams-fe/src/sections/DataCards/index'
 
 const dataH = [
     {

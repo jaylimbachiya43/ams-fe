@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from '../../../node_modules/next/image'
-import admin from '../../../public/images/admin.png'
+import admin from '../../../../ams-fe/public/images/admin.png'
+import style from '../../../../ams-fe/src/components/Profile/style.module.css'
 
 const data = [
     {
@@ -15,8 +16,8 @@ const Profile = () => {
     return (
         <div className=''>
             {data.map((item, index) => (
-                <div key={index} className='grid justify-items-center border gap-y-7 p-7 bg-slate-100 shadow-lg'>
-                    <Image src={item.logo} alt='user dp' width={50} height={100} className='rounded-full border bg-slate-400 p-1' />
+                <div key={index} className={style.m1}>
+                    <Image src={item.logo} alt='user dp' width={50} height={100} className={style.m2} />
                     <h2><strong>{item.name}</strong></h2>
                     <p>{item.position}</p>
                     <p>Joining Date: {item.date}</p>

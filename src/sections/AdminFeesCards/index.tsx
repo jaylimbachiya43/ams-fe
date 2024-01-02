@@ -1,9 +1,9 @@
 'use client'
 import React, { useState } from 'react';
-import FeesCardsA from '../FeesCardsA/index';
-import admin from '../../../public/images/student.png';
-import FlipCard from '@/components/FlipCard';
-import style from './style.module.css'
+import FeesCardsA from '../../../../ams-fe/src/sections/FeesCardsA/index';
+import admin from '../../../../ams-fe/src/public/images/student.png';
+import FlipCard from '../../../../ams-fe/src/components/FlipCard';
+import style from '../../../../ams-fe/src/sections/AdminFeesCards/style.module.css'
 
 const AdminFeesCards = () => {
   const [selectedBatch, setSelectedBatch] = useState(1);

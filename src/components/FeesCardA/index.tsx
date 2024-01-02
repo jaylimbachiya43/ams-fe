@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../../node_modules/next/image';
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/components/FeesCardA/style.module.css'
 
 export default function FeesCardA({ item }) {
     const cardStyle = {

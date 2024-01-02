@@ -1,4 +1,4 @@
-import FeedbackForm from '@/components/FeedbackForm'
+import FeedbackForm from '../../../../../ams-fe/src/components/FeedbackForm'
 import React from 'react'
 
 export default function Feedback() {

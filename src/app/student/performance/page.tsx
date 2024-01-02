@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgressWheel from '../../../components/ProgressWheel/index'
+import ProgressWheel from '../../../../../ams-fe/src/components/ProgressWheel/index'
 
 export default function Performance() {
 

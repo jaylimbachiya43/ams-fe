@@ -1,9 +1,9 @@
 
 import React from 'react'
 import Image from 'next/image'
-import CompLogo from '../../../public/images/complogo.png'
-import BellLogo from '../../../public/images/Bell.png'
-import ProfImg from '../../../public/images/admin.png'
+import CompLogo from '../../../../ams-fe/public/images/complogo.png'
+import BellLogo from '../../../../ams-fe/public/images/Bell.png'
+import ProfImg from '../../../../ams-fe/public/images/admin.png'
 import Link from 'next/link'
 
 const Header = () => {

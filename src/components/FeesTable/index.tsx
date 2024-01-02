@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/components/FeesTable/style.module.css'
 
 const tableData = [
     { name: 'A', date: '2023-10-10', received: 5000, pending: 15000, method: 'Cash', total: '20000', daysPresent: [false, false, false, true, false, true, false, true, true, false, false, false, false, false, true, false,, true, false,false, false,, true, false, true, false, true, false, true] },

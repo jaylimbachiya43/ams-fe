@@ -1,5 +1,5 @@
-import StuDetails from "@/components/StuDetails/index";
-import WideCards from "@/sections/WideCards/index";
+import StuDetails from "../../../../../ams-fe/src/components/StuDetails/index";
+import WideCards from "../../../../../ams-fe/src/sections/WideCards/index";
 
 const dataC = [
     {

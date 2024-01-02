@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
-import SmartTable from '@/components/SmartTable';
-import AddAnnouncementForm from '@/components/AddAnnouncementForm';
+import SmartTable from '../../../../ams-fe/src/components/SmartTable/index';
+import AddAnnouncementForm from '../../../../ams-fe/src/components/AddAnnouncementForm/index';
 import AnnouncementList from '../DashAnn';
 
 export default function HRAnn()  {

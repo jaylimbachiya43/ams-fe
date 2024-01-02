@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/components/FlipCard/style.module.css'
 
 const FlipCard = () => {
   const [isFlipped, setIsFlipped] = useState(false);

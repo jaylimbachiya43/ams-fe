@@ -1,0 +1,7 @@
+.m1{
+    @apply grid justify-items-center border gap-y-7 p-7 bg-slate-100 shadow-lg;
+}
+
+.m2{
+    @apply rounded-full border bg-slate-400 p-1;
+}

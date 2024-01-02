@@ -1,0 +1,11 @@
+.parent{
+    @apply my-5 mx-2 shadow-lg;
+}
+
+.c1{
+    @apply bg-gray-800 p-2 rounded-t-2xl text-white;
+}
+
+.c2{
+    @apply bg-slate-100 p-4;
+}

@@ -1,6 +1,6 @@
-import Show from '@/components/Show/index'
+import Show from '../../../../ams-fe/src/components/Show/index'
 import React from 'react'
-import WideCards from '../WideCards/index'
+import WideCards from '../../../../ams-fe/src/sections/WideCards/index'
 
 const dataA = [
     {

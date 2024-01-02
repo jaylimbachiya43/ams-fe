@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import Table from '../Table/index';
+import Table from '../../../../ams-fe/src/components/Table/index';
 
 const Show = () => {
     const numbers = Array.from({ length: 10 }, (_, i) => i + 1);

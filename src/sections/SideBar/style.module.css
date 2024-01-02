@@ -6,9 +6,13 @@
 }
 
 .stem {
-    @apply p-4;
+    @apply p-4 grid gap-y-8;
 }
 
 .title {
-    @apply absolute ml-2 top-0 left-full bg-gray-800 text-white p-3 rounded-r-full;
+    @apply absolute ml-2 top-0 left-full bg-gray-800  text-white px-5 py-3 rounded-r-full;
+}
+
+.m1{
+    @apply mb-4 flex items-center cursor-pointer;
 }

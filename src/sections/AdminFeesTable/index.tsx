@@ -1,6 +1,6 @@
-import FeesShow from '@/components/FeesShow/index'
+import FeesShow from '../../../../ams-fe/src/components/FeesShow/index'
 import React from 'react'
-import WideCards from '../WideCards/index'
+import WideCards from '../../../../ams-fe/src/sections/WideCards/index'
 
 const dataA = [
     {

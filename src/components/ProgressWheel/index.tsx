@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import style from './style.module.css';
-import MySVG from '../CircleSVG';
+import MySVG from '../../../../ams-fe/src/components/CircleSVG';
 
 export default function ProgressWheel() {
   const totalDays = 30;

@@ -1,6 +1,6 @@
-import DataCard from '@/components/DataCard/index';
+import DataCard from '../../../../ams-fe/src/components/DataCard/index';
 import React from 'react'
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/sections/DataCards/style.module.css'
 
 const DataCards = ({ data1 }) => {
     return (

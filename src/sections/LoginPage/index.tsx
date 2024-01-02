@@ -1,11 +1,11 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
-import AdminImage from '../../../public/images/admin.png';
-import StudentImage from '../../../public/images/student.png';
-import CompLogo from '../../../public/images/complogo.png';
-import style from './style.module.css';
-import LoginForm from '@/components/LoginForm/index';
+import AdminImage from '../../../../ams-fe/public/images/admin.png';
+import StudentImage from '../../../../ams-fe/public/images/student.png';
+import CompLogo from '../../../../ams-fe/public/images/complogo.png';
+import style from '../../../../ams-fe/src/sections/LoginPage/style.module.css';
+import LoginForm from '../../../../ams-fe/src/components/LoginForm/index';
 
 const logIn = [
   {

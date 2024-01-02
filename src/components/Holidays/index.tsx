@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/components/Holidays/style.module.css'
 import bg1 from '../../../public/images/dussehra.png'
 
 const data = [

@@ -1,4 +1,4 @@
-import Form from '@/components/newStudent'
+import Form from '../../../../../ams-fe/src/components/newStudent'
 import React from 'react'
 
 export default function NewStudent() {

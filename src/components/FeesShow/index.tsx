@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import FeesTable from '../FeesTable/index';
+import FeesTable from '../../../../ams-fe/src/components/FeesTable/index';
 
 const tableData = [
   { name: 'A', date: '2023-10-10', received: 5000, pending: 15000, method: 'Cash', total: '20000' },

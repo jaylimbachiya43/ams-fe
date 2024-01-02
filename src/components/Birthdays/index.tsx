@@ -1,7 +1,7 @@
 import React from 'react'
-import style from './style.module.css'
+import style from '../../../../ams-fe/src/components/Birthdays/style.module.css'
 import Image from '../../../node_modules/next/image'
-import Account from '../../../public/images/admin.png'
+import Account from '../../../../ams-fe/public/images/admin.png'
 
 const data = [
     {

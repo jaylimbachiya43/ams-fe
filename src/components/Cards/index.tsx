@@ -1,6 +1,6 @@
 'use client'
-import styles from './style.module.css';
-import LoginForm from '../LoginForm/index';
+import styles from '../../../../ams-fe/src/components/Cards/style.module.css';
+import LoginForm from '../../../../ams-fe/src/components/LoginForm/index';
 import Image from 'next/image';
 
 export default function Card({ cardData }) {
